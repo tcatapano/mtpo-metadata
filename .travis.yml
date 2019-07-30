@@ -1,0 +1,7 @@
+before_install:
+  - sudo apt-get install -y libxml2-utils
+
+script:
+  - xmllint letter_objects.xml --noout
+
+
